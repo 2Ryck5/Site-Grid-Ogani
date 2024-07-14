@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 7vh;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 70px;
+    background-color: #f5f5f5;
+}
+
+#header div {
+    display: inline-block;
+}
+
+#direita ul li {
+    list-style: none;
+    display: inline-block;
+    color: #1c1c1c;
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+#esquerda {
+    padding-left: 300px;
+}
+
+#esquerda ul li {
+    display: inline-block;
+    color: #1c1c1c;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#header svg {
+    padding-right: 12px;
+    height: 14px;
+}
+.space{
+    width: 200px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 4fr 1.5fr;
+    grid-template-rows: 5vh 10vh 50vh;
+}
+
+#logo {
+    grid-column: 2;
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+#nav {
+    grid-column: 3;
+}
+
+#menu {
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#busca {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#busca div {
+    border: solid 1px #e0dfdf;
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#fwq {
+    width: 40%;
+    border: none;
+    height: 48px;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+    display: inline-block;
+
+}
+
+#busca button {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 13px 30px;
+    background: #7fad39;
+    border: none;
+    display: inline-block;
+
+
+}
+
+.cinza {
+    color: #b2b2b2;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.preto {
+    color: #1c1c1c;
+    font-weight: bolder;
+    border: 0;
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 11px;
+}
+
+#busca p {
+    display: inline-block;
+}
+
+#telefone {
+    border: solid purple;
+
+
+}
+
+#banner {
+    grid-column: 3;
+    background-image: url(banner.jpg.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    padding-left: 75px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner h2 {
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#banner a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #7fad39;
+    letter-spacing: 2px;
+    width: 23%;
+}
+
+.Tverde {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+    margin-bottom: 10px;
+}
+
+.Tcinza {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+svg {
+    height: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+    font-weight: bolder;
+    font-family: "Cairo", sans-serif;
+    padding: 0;
+}
+
+#nav svg {
+    padding-left: 10px;
+}
+
+.carrosel1 {
+    height: 70vh;
+    padding-top: 50px;
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 270px;
+}
+
+.carrosell div {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.carrosell div a {
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+    position: relative;
+
+}
